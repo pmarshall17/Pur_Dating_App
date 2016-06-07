@@ -36,7 +36,11 @@ gem 'paperclip', '~>3.0'
 # gem 'capistrano-rails', group: :development
 
 group :development, :test do
-	gem 'pry'
+  gem 'pry'
+  gem 'rspec-rails'
+  gem 'shoulda-matchers'
+  gem 'database_cleaner'
+  gem 'simplecov'
 end
 
 group :development do
